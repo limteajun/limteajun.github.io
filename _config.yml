@@ -16,10 +16,10 @@ minimal_mistakes_skin    :  "air"  #"default"  "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "사랑이 아빠"
+title                    : "사랑이 아빠의"
 title_separator          : "-"
-subtitle                 : "의 개발"
-name                     : "Lim taejun"
+subtitle                 : "관심사"
+name                     : "사랑이 아빠의 기술블로그"
 description              : ""
 url                      : "https://limteajun.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,9 +101,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "ltj"
-  avatar           : "/images/author/KakaoTalk_20210915_122617876.jpg"
-  bio              : "동구리 남편 사랑이 아빠."
+  name             : "동구리 남편 사랑이 아빠"
+  avatar           : "/assets/images/author/KakaoTalk_20210915_122617876.jpg"
+  bio              : "시선인터내셔널 자사몰 개발팀에 근무하고 있습니다."
   location         : "Seoul, Korea"
   email            : limteajun@naver.com
   links:
@@ -283,7 +283,12 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
+      show_date: true
+      date_format: "%Y-%m-%d"
+      sidebar:
+        nav: "docs"
+
