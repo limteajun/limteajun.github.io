@@ -1,3 +1,6 @@
 #folder
 _site/
 .jekyll-cache/
+
+#file
+Gemfile.lock
